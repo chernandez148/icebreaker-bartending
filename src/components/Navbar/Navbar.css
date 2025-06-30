@@ -1,0 +1,26 @@
+.Navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999999;
+    background-image: linear-gradient(180deg, #000000, transparent);
+}
+
+.Navbar ul {
+    padding: 1rem;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.Navbar a {
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+@media(max-width: 650px) {
+    .Navbar {
+        display: none;
+    }
+}

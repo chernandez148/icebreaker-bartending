@@ -1,0 +1,13 @@
+.HorizontalLine {
+    position: absolute;
+    top: 0;
+    width: 1px;
+    height: 100%;
+    background-color: #ffffff21;
+}
+
+@media(max-width: 650px) {
+    .HorizontalLine {
+        display: none;
+    }
+}
