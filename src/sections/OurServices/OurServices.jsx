@@ -30,7 +30,7 @@ function OurServices() {
         <div className="service" data-aos="fade-up">
           <div className="service-description">
             <h3>Bartender Staffing</h3>
-            <p>
+            <p className="service-para main">
               Our expert bartenders bring not just skill, but an unmatched level
               of professionalism to every event. Whether it’s a small gathering
               or a large celebration, our team ensures that every drink is
@@ -40,7 +40,7 @@ function OurServices() {
               experience.
             </p>
             <br />
-            <p>
+            <p className="service-para secondary">
               With over a decade of experience, our bartenders are adept at
               handling any type of event — from intimate backyard parties to
               grand wedding receptions. We offer flexible packages that allow
@@ -50,7 +50,7 @@ function OurServices() {
               ensuring that your guests feel cared for throughout the event.
             </p>
             <br />
-            <p>
+            <p className="service-para secondary">
               We handle everything — from setup to cleanup — so you can focus on
               enjoying the event. Our bartenders are equipped with high-quality
               tools and ingredients, ensuring every cocktail is a masterpiece.
@@ -71,7 +71,7 @@ function OurServices() {
           </div>
           <div className="service-description">
             <h3>Mobile Bar Rental</h3>
-            <p>
+            <p className="service-para main">
               Bring the bar to you with our fully-equipped mobile bar setups.
               Perfect for any location, our mobile bar service adds convenience
               and style to your event, whether it's a wedding, corporate
@@ -82,7 +82,7 @@ function OurServices() {
               mocktails and non-alcoholic beverages.
             </p>
             <br />
-            <p>
+            <p className="service-para secondary">
               Our mobile bar setups are not only functional but designed to
               enhance the aesthetic of your event. We offer a variety of bar
               styles to match your venue and theme, from sleek modern bars to
@@ -93,7 +93,7 @@ function OurServices() {
               high-quality drinks and exceptional service wherever you are.
             </p>
             <br />
-            <p>
+            <p className="service-para secondary">
               Our team is trained to provide efficient, friendly service while
               creating a fun and interactive experience for your guests. We also
               provide additional services, such as personalized cocktail
@@ -107,7 +107,7 @@ function OurServices() {
         <div className="service" data-aos="fade-up">
           <div className="service-description">
             <h3>Patio Rental</h3>
-            <p>
+            <p className="service-para main">
               Elevate your outdoor event with our stylish patio rentals, perfect
               for creating an inviting and memorable atmosphere. Our patios are
               designed to complement any event, providing a beautiful setting
@@ -117,7 +117,7 @@ function OurServices() {
               customized to suit your needs and style.
             </p>
             <br />
-            <p>
+            <p className="service-para secondary">
               Our patio rentals come with a range of features, including
               comfortable seating arrangements, elegant lighting, and weather
               protection options to ensure your guests stay comfortable no
@@ -126,7 +126,7 @@ function OurServices() {
               guest list, from cozy intimate spaces to larger group gatherings.
             </p>
             <br />
-            <p>
+            <p className="service-para secondary">
               With full-service bartending options and complete event
               coordination, our patio rentals ensure that your outdoor
               celebration goes off without a hitch. We handle all the logistics,
@@ -150,7 +150,7 @@ function OurServices() {
           </div>
           <div className="service-description">
             <h3>Signature Cocktails</h3>
-            <p>
+            <p className="service-para main">
               At our bartending service, we believe that every drink should tell
               a story. Our custom cocktail creations are designed to reflect
               your event’s personality, theme, and vibe. Whether you're looking
@@ -162,7 +162,7 @@ function OurServices() {
               flavors that leave a lasting impression.
             </p>
             <br />
-            <p>
+            <p className="service-para secondary">
               We take pride in offering a personalized cocktail menu tailored
               specifically to your needs. We start by understanding your guests’
               preferences and the overall ambiance you wish to create. Then, we
@@ -174,7 +174,7 @@ function OurServices() {
               adding an extra layer of detail to your event’s experience.
             </p>
             <br />
-            <p>
+            <p className="service-para secondary">
               Beyond just mixing drinks, our creative cocktail designs engage
               your guests and enhance the overall celebration. We offer the
               option for personalized garnishes, fun cocktail names, and
