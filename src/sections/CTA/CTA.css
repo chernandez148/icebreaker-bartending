@@ -1,0 +1,73 @@
+.CTA {
+    padding: 6rem 0;
+    position: relative;
+}
+
+.banner {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 400px;
+    background-image: url(../../assets/images/about-bg.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(39, 26, 11, 0.9);
+    width: 100%;
+    height: 400px;
+}
+
+.cta-wrapper {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+}
+
+.cta-btn,
+.cta-img {
+    width: 50%;
+}
+
+.cta-btn {
+    z-index: 2;
+    position: relative;
+}
+
+.cta-img {
+    z-index: 1;
+    position: relative;
+}
+
+.cta-btn h1 {
+    width: 200%;
+}
+
+.cta-btn button {
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 1rem;
+}
+
+@media(max-width:650px) {
+    .cta-btn button {
+        width: 200%;
+    }
+
+    .cta-btn {
+        width: 25%;
+    }
+
+    .cta-img {
+        width: 75%;
+    }
+}
