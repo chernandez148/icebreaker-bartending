@@ -58,3 +58,7 @@ footer a {
     width: 100%;
     border-color: #737373;
 }
+
+.Footer p {
+    text-align: center;
+}
