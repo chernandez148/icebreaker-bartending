@@ -30,28 +30,24 @@ function Team() {
         <div className="team" data-aos="fade-up">
           <img src={Team1} />
           <div className="team-member">
-            <h3>Angela Ramos</h3>
             <p>Bartender</p>
           </div>
         </div>
         <div className="team" data-aos="fade-up">
           <img src={Team4} />
           <div className="team-member">
-            <h3>Angela Ramos</h3>
             <p>Bartender</p>
           </div>
         </div>
         <div className="team" data-aos="fade-up">
           <img src={Team3} />
           <div className="team-member">
-            <h3>Angela Ramos</h3>
             <p>Bartender</p>
           </div>
         </div>
         <div className="team" data-aos="fade-up">
           <img src={Team2} />
           <div className="team-member">
-            <h3>Angela Ramos</h3>
             <p>Bartender</p>
           </div>
         </div>
