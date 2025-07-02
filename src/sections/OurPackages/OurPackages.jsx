@@ -3,9 +3,9 @@ import SectionTitle from "../../components/SectionTitle/SectionTitle";
 import { FiCheckCircle } from "react-icons/fi";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import "./Packages.css";
+import "./OurPackages.css";
 
-function Packages() {
+function OurPackages() {
   useEffect(() => {
     AOS.init({
       duration: 1000, // animation duration in ms
@@ -13,7 +13,7 @@ function Packages() {
     });
   }, []);
   return (
-    <section className="Packages">
+    <section className="OurPackages">
       <SectionTitle
         title="Our Packages"
         subtitle="Packages for Every Occasion"
@@ -183,10 +183,78 @@ function Packages() {
               needs.
             </p>
           </div>
+          <div className="package-content">
+            <p>
+              <strong>Includes:</strong>
+            </p>
+            <ul>
+              <li>
+                <FiCheckCircle /> 2+ bartenders with white wooden mobile bars
+                (if needed)
+              </li>
+              <li>
+                <FiCheckCircle /> 5+ hours of service
+              </li>
+              <li>
+                <FiCheckCircle /> Printed personalized menu
+              </li>
+              <li>
+                <FiCheckCircle /> All acrylic cocktail cups
+              </li>
+              <li>
+                <FiCheckCircle /> Shot cups (if needed)
+              </li>
+              <li>
+                <FiCheckCircle /> Cocktail napkins
+              </li>
+              <li>
+                <FiCheckCircle /> Cocktail straws
+              </li>
+              <li>
+                <FiCheckCircle /> Chamoy rimmer
+              </li>
+              <li>
+                <FiCheckCircle /> Margarita salt
+              </li>
+              <li>
+                <FiCheckCircle /> Tajin salt
+              </li>
+            </ul>
+            <p>
+              <strong>Garnishes included:</strong>
+            </p>
+            <ul>
+              <li>
+                <FiCheckCircle /> Fresh mint
+              </li>
+              <li>
+                <FiCheckCircle /> Lime slices
+              </li>
+              <li>
+                <FiCheckCircle /> Lemon slices
+              </li>
+              <li>
+                <FiCheckCircle /> Orange slices
+              </li>
+              <li>
+                <FiCheckCircle /> Pineapple slices
+              </li>
+              <li>
+                <FiCheckCircle /> Dehydrated garnishes
+              </li>
+            </ul>
+            <p>
+              <strong>Note:</strong> Client provides liquor, mixers, ice, and
+              beer.
+            </p>
+            <p>
+              <strong>Milage fee included.</strong>
+            </p>
+          </div>
         </div>
       </div>
     </section>
   );
 }
 
-export default Packages;
+export default OurPackages;

@@ -22,18 +22,12 @@ function Navbar() {
           <Link to="/about">About</Link>
         </li>
         <li>
-          <Link to="/packages">Packages</Link>
-        </li>
-        <li>
           <Link to="/">
             <img src={Logo} alt="logo" width={150} />
           </Link>
         </li>
         <li>
-          <Link to="/gallery">Gallery</Link>
-        </li>
-        <li>
-          <Link to="/services">Services</Link>
+          <Link to="/packages">Packages</Link>
         </li>
         <li>
           <Link to="/contact">Contact</Link>

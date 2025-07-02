@@ -3,7 +3,7 @@ import Hero from "../../sections/Hero/Hero";
 import OurStory from "../../sections/OurStory/OurStory";
 import OurServices from "../../sections/OurServices/OurServices";
 import BehindTheBar from "../../sections/BehindTheBar/BehindTheBar";
-import Packages from "../../sections/Packages/Packages";
+import OurPackages from "../../sections/OurPackages/OurPackages";
 import CTA from "../../sections/CTA/CTA";
 import "./Home.css";
 
@@ -14,7 +14,7 @@ function Home() {
       <OurStory />
       <OurServices />
       <BehindTheBar />
-      <Packages />
+      <OurPackages />
       <CTA />
     </main>
   );

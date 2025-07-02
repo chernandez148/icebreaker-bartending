@@ -1,0 +1,93 @@
+.ContactForm {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 6rem 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ContactForm form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 2.5rem;
+}
+
+.ContactForm input,
+.ContactForm select,
+.ContactForm textarea {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 0.5rem 0;
+    width: 100%;
+    color: white;
+    font-size: 14px;
+}
+
+.ContactForm input:focus,
+.ContactForm select:focus,
+.ContactForm textarea:focus {
+    outline: none;
+    border-color: white;
+}
+
+.ContactForm .line {
+    width: 1px;
+    height: 100px;
+    background-color: white;
+    margin: 3rem 0;
+}
+
+.full-name,
+.date-and-time,
+.message {
+    display: flex;
+    gap: 25px;
+}
+
+.full-name>div,
+.date-and-time>div,
+.message>div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Applies to WebKit-based browsers like Chrome, Edge, Safari */
+input[type="time"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+    /* Inverts black icon to white */
+}
+
+
+.error {
+    color: #ff4d4d;
+    font-size: 0.75rem;
+    margin-top: 0.25rem;
+}
+
+.ContactForm button {
+    margin-top: 2rem;
+    padding: 1.25em 2rem;
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: background 0.3s ease;
+}
+
+.ContactForm button:hover {
+    background-color: #f0f0f0;
+}
+
+@media(max-width: 650px) {
+    .ContactForm button {
+        font-size: 14px;
+    }
+}

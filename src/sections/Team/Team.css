@@ -1,0 +1,49 @@
+.Team {
+    width: 90%;
+    margin: 0 auto;
+    padding: 6rem 0;
+}
+
+.Team .team-members {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 3rem;
+}
+
+.Team .team {
+    display: flex;
+    width: calc(20% - 50px);
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Team img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+    filter: grayscale(1);
+}
+
+.Team .team-member {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+@media(max-width: 1200px) {
+    .Team .team {
+        width: calc(50% - 50px);
+    }
+
+    .Team .team-members {
+        justify-content: center;
+    }
+}
+
+@media(max-width: 650px) {
+    .Team .team {
+        width: 100%;
+    }
+
+}

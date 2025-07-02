@@ -1,0 +1,32 @@
+.Header {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.Header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(5px)
+}
+
+.Header>* {
+    z-index: 1;
+}
+
+@media(max-width: 650px) {
+    .Header {
+        height: 250px;
+        text-align: center;
+    }
+}
